@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+>
+  <engine:Box class="ViewBox">
+    <engine:Label class="TitleLabel_1" text="Ease Preview"/>
+  </engine:Box>
+  <engine:Box class="ViewBox">
+    <engine:Label class="TitleLabel_2" text="Editor"/>
+    <editor:EnumField name="selector" label="Ease Type"/>
+    <editor:FloatField name="overshootOrAmplitude" label="OvershootOrAmplitude" />
+    <editor:FloatField name="period" label="Period" />
+  </engine:Box>
+  <engine:Box class="GrowViewBox">
+    <engine:Label class="TitleLabel_2" text="Preview"/>
+    <engine:IMGUIContainer name="drawPanel"/>
+  </engine:Box>
+</engine:UXML>

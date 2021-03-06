@@ -1,0 +1,33 @@
+.ViewBox {
+  margin: 5px;
+  border-color: rgb(0,0,0);
+
+}
+
+.GrowViewBox{
+	margin: 5px;
+	border-color: rgb(0,0,0);
+	flex-grow: 1;
+}
+
+.TitleLabel_1{
+	font-size: 40px;
+	-unity-font-style: bold;
+}
+
+.TitleLabel_2{
+	font-size: 25px;
+	-unity-font-style: bold;
+}
+
+.TitleLabel_3{
+	font-size: 16px;
+	-unity-font-style: bold;
+}
+
+#drawPanel{
+	margin: 5px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	background-color: rgb(0,0,0);
+}
